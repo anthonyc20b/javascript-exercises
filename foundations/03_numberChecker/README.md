@@ -15,6 +15,6 @@ Tests:       3 skipped, 1 passed, 4 total
 
 ## Hints
 
-- You only need to edit line 2.
+- You only need to edit line 2. - Done!
 
-- Look at the docs for comparison operators in JavaScript for a quick reference.
+- Look at the docs for comparison operators in JavaScript for a quick reference. - Didn't even need it!
