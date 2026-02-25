@@ -14,6 +14,6 @@ Use loops to implement `repeatString` rather than using the builtin `String.prot
 
 ## Hints
 
-- What inputs does the function need to achieve its goal?
+- What inputs does the function need to achieve its goal? - The string value and the amount oftimes
 
-- How can you iteratively build up the final string, using one of the inputs to control the repetition?
+- How can you iteratively build up the final string, using one of the inputs to control the repetition? - Done!
