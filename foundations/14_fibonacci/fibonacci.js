@@ -1,15 +1,22 @@
 const fibonacci = function(n) {
-    if (n <= -1) {
+    newInt = parseInt(n);
+
+    if (newInt <= -1) {
         return "OOPS";
     }
-    if (n === 0) {
+    if (newInt === 0) {
         return 0;
     }
 
-    for (let i = 0; i < n; i++) {
-        
-    };
+    let firstPrev = 1;
+    let secondPrev = 0;
 
+    for (let i = 0; i < newInt - 1; i++) {
+        const current = firstPrev + secondPrev;
+        secondPrev = firstPrev;
+        firstPrev = current;
+    };
+    return firstPrev;
 };
 
 // Do not edit below this line
